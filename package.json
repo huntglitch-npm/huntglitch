@@ -1,0 +1,35 @@
+{
+  "name": "node-huntglitch",
+  "version": "1.0.0",
+  "description": "A lightweight utility to send error logs to the HuntGlitch logging service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "huntglitch",
+    "error-logging",
+    "logging",
+    "bug-tracking",
+    "monitoring",
+    "nodejs",
+    "error-handler",
+    "log-service"
+  ],
+  "peerDependencies": {
+    "node": "^14.0.0"
+  },
+  "author": "Vimal Patel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vimaloneuser/node-lighthouse-log.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vimaloneuser/node-lighthouse-log/issues"
+  },
+  "homepage": "https://github.com/vimaloneuser/node-lighthouse-log#readme"
+}
