@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vimaloneuser/node-lighthouse-log.git"
+    "url": "git+https://github.com/huntglitch-npm/huntglitch.git"
   },
   "bugs": {
-    "url": "https://github.com/vimaloneuser/node-lighthouse-log/issues"
+    "url": "https://github.com/huntglitch-npm/huntglitch/issues"
   },
-  "homepage": "https://github.com/vimaloneuser/node-lighthouse-log#readme"
+  "homepage": "https://github.com/huntglitch-npm/huntglitch#readme"
 }
