@@ -1,5 +1,5 @@
 {
-  "name": "node-alekshi-11",
+  "name": "node-alekshi-12",
   "version": "1.0.1",
   "description": "A lightweight utility to send error logs to the HuntGlitch logging service.",
   "main": "dist/index.js",
