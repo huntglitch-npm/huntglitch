@@ -7,7 +7,7 @@
 ![downloads](https://img.shields.io/npm/dt/node-huntglitch)
 ![license](https://img.shields.io/npm/l/node-huntglitch)
 
-A lightweight, plug-and-play Node.js utility to send structured error logs directly to the [HuntGlitch](https://huntglitch.com) error logging platform.
+Huntglitch is a developer-first app development monitoring platform that can help you instantly solve bugs, broken codes and avoid crashes and false API calls with ease. Huntglitch gives you answers not hints.
 
 Designed to streamline error monitoring across services, this tool handles HTTP context, headers, and classification with minimal setup.
 
@@ -56,8 +56,8 @@ exports.controller = async () => {
         "Content-Type": "application/json"
       },
       method: "GET",
-      endPoint: "http://127.0.0.1:8000/api/test/addLog",
-      requestIp: "192.168.1.55"
+      endPoint: "https://api.huntglitch.com/add-log",
+      requestIp: "User's IP goes here"
     });
   }
 };
@@ -67,14 +67,14 @@ exports.controller = async () => {
 
 ## 📋 Props Reference
 
-| Prop        | Type     | Description                                                                  | Example                                 |
-|-------------|----------|------------------------------------------------------------------------------|-----------------------------------------|
-| `error`     | `object` | JavaScript error object to log                                               | `error`                                  |
-| `logType`   | `number` | 1 = debug, 2 = warning, 3 = notice, 4 = info, 5 = error (default is 5)        | `5`                                      |
-| `method`    | `string` | HTTP method of the request causing the error                                 | `GET`, `POST`, `PUT`, etc.              |
-| `endPoint`  | `string` | API endpoint involved                                                        | `http://127.0.0.1:8000/api/test/addLog` |
-| `requestIp` | `string` | IP address from which the request originated                                 | `192.168.1.55`                           |
-| `headers`   | `object` | Optional headers associated with the request                                 | `{ "Content-Type": "application/json" }` |
+| Prop        | Type     | Description                                                                  | Example                                   |
+|-------------|----------|-------------------------------------------------------------------------------|-------------------------------------------|
+| `error`     | `object` | JavaScript error object to log                                                | `error`                                   |
+| `logType`   | `number` | `1 = debug`, `2 = warning`, `3 = notice`, `4 = info`, `5 = error` (default 5) | `5`                                       |
+| `method`    | `string` | HTTP method of the request causing the error                                  | `"GET"`, `"POST"`, `"PUT"`                |
+| `endPoint`  | `string` | API endpoint involved                                                         | `"https://api.huntglitch.com/add-log"`    |
+| `requestIp` | `string` | IP address from which the request originated                                  | `"User's IP goes here"`                          |
+| `headers`   | `object` | Optional headers associated with the request                                  | `{ "Content-Type": "application/json" }`  |
 
 ---
 

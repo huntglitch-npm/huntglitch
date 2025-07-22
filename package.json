@@ -1,9 +1,12 @@
 {
-  "name": "node-huntglitch",
+  "name": "node-alekshi-11",
   "version": "1.0.1",
   "description": "A lightweight utility to send error logs to the HuntGlitch logging service.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -31,5 +34,13 @@
   "bugs": {
     "url": "https://github.com/huntglitch-npm/huntglitch/issues"
   },
-  "homepage": "https://github.com/huntglitch-npm/huntglitch#readme"
+  "homepage": "https://github.com/huntglitch-npm/huntglitch#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.15",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "dist",
+    "ReadMe.md"
+  ]
 }
