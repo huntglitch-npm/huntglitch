@@ -7,15 +7,15 @@
 ![downloads](https://img.shields.io/npm/dt/node-huntglitch)
 ![license](https://img.shields.io/npm/l/node-huntglitch)
 
-Huntglitch is a developer-first app development monitoring platform that can help you instantly solve bugs, broken codes and avoid crashes and false API calls with ease. Huntglitch gives you answers not hints.
+HuntGlitch is a developer-first app monitoring platform that helps you instantly detect and fix bugs, broken code, crashes, and false API calls with ease. It gives you answers—not vague hints—so you can move faster and build with confidence.
 
-Designed to streamline error monitoring across services, this tool handles HTTP context, headers, and classification with minimal setup.
+Built to streamline error tracking across services, HuntGlitch automatically captures HTTP context, request headers, and classifies issues intelligently—all with minimal setup.
 
 ---
 
 ## 🚀 Motivation
 
-Manually handling error logging across microservices is repetitive and error-prone. This package simplifies the process into a single function call with environment-specific keys. Ideal for debugging APIs, tracking failed requests, and improving observability.
+Manually managing error logging across microservices is repetitive, time-consuming, and prone to mistakes. This package streamlines the process into a single function call using environment-specific keys—perfect for debugging APIs, tracking failed requests, and enhancing overall observability.
 
 ---
 
