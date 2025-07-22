@@ -73,7 +73,7 @@ exports.controller = async () => {
 | `logType`   | number   | Log level: `1=debug`, `2=warning`, `3=notice`, `4=info`, `5=error` (default) | `5`                          |
 | `method`    | string   | HTTP method used in the request                                 | `GET`, `POST`, `PUT`                          |
 | `endPoint`  | string   | Full API endpoint where the error occurred                      | `https://api.huntglitch.com/add-log`          |
-| `requestIp` | string   | IP address from which the request originated                    | `192.168.1.100`                                |
+| `requestIp` | string   | IP address from which the request originated                    | `192.168.1.100`                               |
 | `headers`   | object   | Optional headers sent with the request                          | `{ "Content-Type": "application/json" }`      |
 
 ## 📊 Example Use Cases
