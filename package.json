@@ -1,6 +1,6 @@
 {
   "name": "node-alekshi-12",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A lightweight utility to send error logs to the HuntGlitch logging service.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
