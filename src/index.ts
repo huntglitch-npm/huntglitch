@@ -28,7 +28,7 @@ export const Log = ({
       return;
     }
 
-    const match = error.stack?.match(/\/([\/\w\-_.]+\.js):(\d*):(\d*)/);
+    const match = error.stack?.match(/\/([\w\-_.]+\.js):(\d+):(\d+)/);
     const [, filename, , column] = match || [];
 
     const body = {

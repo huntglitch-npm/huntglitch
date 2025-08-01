@@ -1,12 +1,14 @@
 {
   "name": "node-huntglitch",
   "version": "1.0.2",
+   "type": "module",
   "description": "A lightweight utility to send error logs to the HuntGlitch logging service.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
+    "lint": "eslint . --ext .ts,.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -20,12 +22,12 @@
     "log-service"
   ],
   "peerDependencies": {
-    "node": "^14.0.0"
+    "node": ">=18"
   },
   "author": "Vimal Patel",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^1.11.0"
   },
   "repository": {
     "type": "git",
@@ -36,8 +38,13 @@
   },
   "homepage": "https://github.com/huntglitch-npm/huntglitch#readme",
   "devDependencies": {
+    "@eslint/js": "^9.32.0",
     "@types/node": "^24.0.15",
-    "typescript": "^5.8.3"
+    "@typescript-eslint/eslint-plugin": "^8.38.0",
+    "@typescript-eslint/parser": "^8.38.0",
+    "eslint": "^9.32.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.38.0"
   },
   "files": [
     "dist",
