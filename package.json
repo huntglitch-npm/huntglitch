@@ -1,6 +1,6 @@
 {
   "name": "node-huntglitch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "description": "A lightweight utility to send error logs to the HuntGlitch logging service.",
   "main": "dist/index.js",
