@@ -85,6 +85,16 @@ exports.controller = async () => {
 
 ---
 
-## 🙌 Acknowledgements
+
+## 🛠 Support
+We are committed to ensuring your experience with this package is seamless and productive.
+
+📧 Email: support@huntglitch.com
+
+If you require assistance with integration, need guidance on specific features, or encounter any issues, our support team will be happy to help. We strive to provide timely and effective solutions so you can continue your work without interruption.
+
+---
+
+## �� Acknowledgements
 
 Thanks to the HuntGlitch team and community for helping improve API logging visibility across development teams.
