@@ -1,21 +1,19 @@
 {
   "name": "node-huntglitch",
   "version": "1.0.5",
-  "type": "module",
   "description": "A lightweight utility to send error logs to the HuntGlitch logging service.",
-  "main": "./dist/cjs/index.cjs",
-  "module": "./dist/esm/index.js",
-  "types": "./dist/index.d.ts",
+  "type": "module",
+  "main": "./dist/index.cjs",       
+  "module": "./dist/index.js",      
+  "types": "./dist/index.d.ts",      
   "exports": {
     ".": {
-      "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.cjs"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     }
   },
   "scripts": {
-    "build:cjs": "tsc --project tsconfig.json --outDir ./dist/cjs",
-    "build:esm": "tsc --project tsconfig.esm.json --outDir ./dist/esm",
-    "build": "npm run build:cjs && npm run build:esm",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
     "prepublishOnly": "npm run build",
     "lint": "eslint . --ext .ts,.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -52,6 +50,7 @@
     "@typescript-eslint/eslint-plugin": "^8.38.0",
     "@typescript-eslint/parser": "^8.38.0",
     "eslint": "^9.32.0",
+    "tsup": "^8.5.0",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.38.0",
     "undici-types": "^7.13.0"
@@ -61,3 +60,4 @@
     "ReadMe.md"
   ]
 }
+ 
